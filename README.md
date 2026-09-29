@@ -232,11 +232,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 2. CloudCannon -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/cloudcannon-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/46b96feb635329484d3ec2eacd56fe149e8eff0a/new-readme-images/cloudcannon-table-text.png" />
         <br>
@@ -248,11 +248,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 3. Scholar Search -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/scholarsearch-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/scholarsearch-table-text.png" />
         <br>
@@ -264,11 +264,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 4. New Portfolio -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/newportfolio-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/80ee75d8c5155c3398bdfb0dd39c5c9c4789f0c1/new-readme-images/newportfolio-table-text.png" />
         <br>
@@ -280,11 +280,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 5. Minesweeper -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/betterminesweeper-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/minesweeper-table-text.png" />
         <br>
@@ -296,11 +296,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 6. Pokedex -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/pokedex-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/pokedex-table-text.png" />
         <br>
@@ -312,11 +312,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 7. PillowTalk -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/pillowtalk-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/pillowtalk-table-text.png" />
         <br>
@@ -328,11 +328,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 8. MyVault -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/myvault-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/myvault-table-text.png" />
         <br>
@@ -344,11 +344,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 9. Anantya -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/anantya-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/anantya-table-text.png" />
         <br>
@@ -360,11 +360,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 10. Paper Scholar -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/paperscholar-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/cbd0808abad3e29ded2c8cf10b10efae17291175/new-readme-images/paper-scholar-table-text.png" />
         <br>
@@ -376,11 +376,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 11. SatCom -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/satcom-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/satcom-table-text.png" />
         <br>
@@ -392,11 +392,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 12. Old Portfolio -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/oldportfolio-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/old-portfolio-table-text.png" />
         <br>
@@ -408,11 +408,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 13. FreeCrafter -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/freecrafter-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/cbd0808abad3e29ded2c8cf10b10efae17291175/new-readme-images/freecrafter-table-text.png" />
         <br>
@@ -424,11 +424,11 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
     <!-- 14. SafeHer -->
     <tr>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/861b01175dc56263c47a71a85fa19530296534f9/new-readme-images/escapeai-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/861b01175dc56263c47a71a85fa19530296534f9/new-readme-images/escapeai-table-text.png" />
         <br>
@@ -440,7 +440,7 @@
           <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
         </p>
       </td>
-      <td align="center" width="123"><img src="https://github.com/Sumdiboii/Sumdiboii/raw/b6879ae805dea838594264a136c0ab6ba0c4ff5d/new-readme-images/headblock.jpg" width="123" /></td>
+      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
   </tbody>
 </table>
