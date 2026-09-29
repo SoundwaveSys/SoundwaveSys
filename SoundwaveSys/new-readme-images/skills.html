@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Japanese Crystal Skill Map</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Fonts: Orbitron, Inter, Cinzel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+  
+  <!-- Devicon Library for Tech SVG Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Orbitron', 'sans-serif'],
+            japanese: ['Cinzel', 'serif'],
+          },
+          colors: {
+            bgDark: '#040914',
+            jpBlue: '#0b1d33',
+            jpBlueBorder: '#1688e8',
+            jpNeonCyan: '#36cfff',
+            jpSakura: '#ffb7d5',
+            jpSakuraDeep: '#ff69b4',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #040914;
+      color: #E2E8F0;
+      overflow-x: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Japanese Skill Map Card - Deep Blue Ornate Border & Notches */
+    .jp-ornate-card {
+      background: radial-gradient(circle at top, rgba(16, 37, 66, 0.9) 0%, rgba(7, 18, 33, 0.95) 100%);
+      border: 2px solid #1688e8;
+      box-shadow: 0 0 15px rgba(22, 136, 232, 0.35), inset 0 0 15px rgba(22, 136, 232, 0.15);
+      position: relative;
+      backdrop-filter: blur(12px);
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .jp-ornate-card:hover {
+      transform: translateY(-4px) scale(1.01);
+      border-color: #36cfff;
+      box-shadow: 0 0 25px rgba(54, 207, 255, 0.5), inset 0 0 20px rgba(54, 207, 255, 0.25);
+    }
+
+    /* Diamond Notch Ornamentations */
+    .jp-ornate-card::before, .jp-ornate-card::after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #36cfff;
+      border: 1px solid #040914;
+      transform: rotate(45deg);
+      box-shadow: 0 0 8px #36cfff;
+      z-index: 10;
+    }
+    .jp-ornate-card::before { top: -6px; left: calc(50% - 5px); }
+    .jp-ornate-card::after { bottom: -6px; left: calc(50% - 5px); }
+
+    /* Corner Accent Lines */
+    .corner-accent {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border: 2px solid #36cfff;
+      pointer-events: none;
+    }
+    .tl { top: 3px; left: 3px; border-right: none; border-bottom: none; }
+    .tr { top: 3px; right: 3px; border-left: none; border-bottom: none; }
+    .bl { bottom: 3px; left: 3px; border-right: none; border-top: none; }
+    .br { bottom: 3px; right: 3px; border-left: none; border-top: none; }
+
+    /* Tech Skill Pill Styles */
+    .skill-pill {
+      background: rgba(11, 29, 51, 0.85);
+      border: 1px solid rgba(54, 207, 255, 0.3);
+      color: #DDF7FF;
+      transition: all 0.25s ease;
+      cursor: pointer;
+    }
+
+    .skill-pill:hover {
+      background: linear-gradient(135deg, rgba(22, 136, 232, 0.6) 0%, rgba(54, 207, 255, 0.4) 100%);
+      border-color: #36cfff;
+      color: #FFFFFF;
+      box-shadow: 0 0 12px rgba(54, 207, 255, 0.6);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    /* Glowing Energy Flow Stream */
+    .energy-stream {
+      stroke-dasharray: 8, 12;
+      animation: energyFlow 25s linear infinite;
+    }
+
+    @keyframes energyFlow {
+      to { stroke-dashoffset: -1000; }
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #040914; }
+    ::-webkit-scrollbar-thumb { background: #1688e8; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #36cfff; }
+  </style>
+</head>
+<body class="relative min-h-screen pb-16">
+
+  <!-- Sakura Falling Particle Canvas Background -->
+  <canvas id="sakuraCanvas" class="fixed inset-0 pointer-events-none z-0"></canvas>
+
+  <!-- SVG Connecting Energy Vectors -->
+  <svg class="fixed inset-0 w-full h-full pointer-events-none z-0 opacity-30" id="svgEnergy">
+    <defs>
+      <linearGradient id="sakuraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#36cfff" stop-opacity="0.8"/>
+        <stop offset="100%" stop-color="#ff69b4" stop-opacity="0.8"/>
+      </linearGradient>
+      <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="3" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+    </defs>
+    <path class="energy-stream" d="M 150,250 C 400,100 600,400 950,200 S 1400,300 1600,200" stroke="url(#sakuraGrad)" stroke-width="2" fill="none" filter="url(#neonGlow)" />
+    <path class="energy-stream" d="M 200,600 C 500,750 800,500 1100,700 S 1500,600 1700,750" stroke="url(#sakuraGrad)" stroke-width="2" fill="none" filter="url(#neonGlow)" />
+  </svg>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+
+    <!-- Header Section with Official Banner Container -->
+    <header class="text-center mb-8">
+      <div class="relative max-w-5xl mx-auto rounded-3xl p-2 bg-[#0b1d33]/90 border-2 border-[#1688e8] shadow-[0_0_30px_rgba(22,136,232,0.4)] backdrop-blur-md overflow-hidden group">
+        
+        <!-- Custom Japanese Skills Banner Header -->
+        <div class="relative overflow-hidden rounded-2xl border border-[#36cfff]/40">
+          <img 
+            src="https://img.shields.io/badge/%E2%9D%84_JAPANESE_SKILL_MAP-0B1D33?style=for-the-badge&labelColor=06111F" 
+            alt="Japanese Skills Banner" 
+            class="w-full h-auto max-h-56 object-cover rounded-xl shadow-inner filter drop-shadow-md"
+            onerror="this.onerror=null; this.src='https://placehold.co/1200x300/0b1d33/36cfff?text=JAPANESE+SKILL+MAP';"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#040914] via-transparent to-transparent opacity-80"></div>
+          
+          <!-- Banner Title Overlay -->
+          <div class="absolute bottom-3 left-0 right-0 text-center">
+            <h1 class="font-display text-3xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#36cfff] via-white to-[#ffb7d5] tracking-widest uppercase filter drop-shadow-[0_0_12px_rgba(54,207,255,0.8)]">
+              Crystal Skill Map
+            </h1>
+            <p class="font-japanese text-xs sm:text-sm text-[#ffb7d5] tracking-widest mt-1">
+              技術能力地図 · TECHNOLOGY · BUILD · CREATE
+            </p>
+          </div>
+        </div>
+
+        <!-- Tag Highlights -->
+        <div class="flex justify-center items-center gap-3 mt-3 py-1">
+          <span class="px-3 py-1 rounded-md bg-[#1688e8]/20 border border-[#36cfff]/40 text-[#36cfff] text-xs font-mono font-bold tracking-wider">TECHNOLOGY</span>
+          <span class="text-[#ffb7d5] text-xs">❖</span>
+          <span class="px-3 py-1 rounded-md bg-[#ff69b4]/20 border border-[#ff69b4]/40 text-[#ffb7d5] text-xs font-mono font-bold tracking-wider">BUILD</span>
+          <span class="text-[#36cfff] text-xs">❖</span>
+          <span class="px-3 py-1 rounded-md bg-[#1688e8]/20 border border-[#36cfff]/40 text-[#DDF7FF] text-xs font-mono font-bold tracking-wider">CREATE</span>
+        </div>
+      </div>
+
+      <!-- Interactive Filter & Search Bar -->
+      <div class="max-w-xl mx-auto mt-6 flex flex-col sm:flex-row gap-3 px-2">
+        <div class="relative flex-grow">
+          <input 
+            type="text" 
+            id="searchInput" 
+            oninput="handleSearch()"
+            placeholder="🔍 Search skill (e.g., PyTorch, React, Docker)..." 
+            class="w-full px-4 py-2.5 rounded-xl bg-[#0b1d33]/90 border border-[#1688e8]/60 text-xs sm:text-sm text-[#DDF7FF] placeholder-slate-400 focus:outline-none focus:border-[#36cfff] focus:ring-2 focus:ring-[#36cfff]/30 transition-all shadow-inner"
+          />
+        </div>
+        <button 
+          onclick="resetFilter()" 
+          class="px-4 py-2.5 rounded-xl bg-[#1688e8]/20 border border-[#1688e8] text-xs font-mono font-bold text-[#36cfff] hover:bg-[#36cfff]/30 hover:text-white transition-all">
+          RESET MAP
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN SKILLS GRID - Horizontal 3 Columns -->
+    <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" id="skillsGrid">
+
+      <!-- 1. PROGRAMMING LANGUAGES -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="languages">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+        
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#36cfff]">❄️</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">PROGRAMMING LANGUAGES</h2>
+            <p class="text-[10px] text-sky-400 font-mono tracking-widest">コア言語 · CORE LOGIC</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('C++', 'High-performance system programming & game engine development', 'Mastery', '6+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-cplusplus-plain text-cyan-400 text-sm"></i> C++
+          </button>
+          <button onclick="openModal('Python', 'AI/ML pipelines, scripting, FastAPI backends & web scraping', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-python-plain text-yellow-300 text-sm"></i> Python
+          </button>
+          <button onclick="openModal('JavaScript', 'Modern ES6+, async engines, DOM & fullstack web dev', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-javascript-plain text-yellow-400 text-sm"></i> JavaScript
+          </button>
+          <button onclick="openModal('TypeScript', 'Strictly typed scalable applications, React & Node backends', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-typescript-plain text-blue-400 text-sm"></i> TypeScript
+          </button>
+          <button onclick="openModal('Go', 'Concurrent microservices, high-throughput backend systems', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-go-original-wordmark text-cyan-300 text-sm"></i> Go
+          </button>
+          <button onclick="openModal('Rust', 'Memory-safe systems programming, WASM & Web3 tooling', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-rust-plain text-orange-300 text-sm"></i> Rust
+          </button>
+          <button onclick="openModal('Java', 'Enterprise backend microservices & Spring ecosystems', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-java-plain text-red-400 text-sm"></i> Java
+          </button>
+          <button onclick="openModal('SQL', 'Complex queries, indexing, query optimization & relational schemas', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-sqldeveloper-plain text-sky-300 text-sm"></i> SQL
+          </button>
+        </div>
+      </div>
+
+      <!-- 2. FRONTEND DEVELOPMENT -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="frontend">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#ff69b4]">🌊</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">FRONTEND DEVELOPMENT</h2>
+            <p class="text-[10px] text-pink-300 font-mono tracking-widest">画面構築 · UI & UX</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('React', 'Component-driven UI, custom hooks, Redux & Zustand state', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-react-original text-cyan-300 text-sm"></i> React
+          </button>
+          <button onclick="openModal('Next.js', 'SSR, SSG, Server Actions & App Router optimization', 'Expert', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-nextjs-original text-slate-100 text-sm"></i> Next.js
+          </button>
+          <button onclick="openModal('HTML5', 'Semantic web markup, accessibility (a11y) & SEO', 'Expert', '6+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-html5-plain text-orange-400 text-sm"></i> HTML5
+          </button>
+          <button onclick="openModal('CSS3', 'Flexbox, Grid, CSS animations & modern responsive design', 'Expert', '6+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-css3-plain text-blue-400 text-sm"></i> CSS3
+          </button>
+          <button onclick="openModal('Tailwind CSS', 'Utility-first styling, design system tokens & dark mode', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-tailwindcss-plain text-teal-300 text-sm"></i> Tailwind CSS
+          </button>
+          <button onclick="openModal('Vite', 'Next-gen fast frontend tooling, HMR & bundle optimization', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-vite-plain text-purple-400 text-sm"></i> Vite
+          </button>
+          <button onclick="openModal('WASM', 'WebAssembly module integration for C++/Rust browser speed', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-webassembly-plain text-indigo-400 text-sm"></i> WASM
+          </button>
+        </div>
+      </div>
+
+      <!-- 3. BACKEND & APIs -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="backend">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#36cfff]">🏯</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">BACKEND & APIs</h2>
+            <p class="text-[10px] text-cyan-300 font-mono tracking-widest">サーバー基盤 · SERVICES</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('Node.js', 'Event-driven server runtime, microservices & CLI tools', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-nodejs-plain text-green-400 text-sm"></i> Node.js
+          </button>
+          <button onclick="openModal('Express.js', 'REST API endpoints, middleware pipelines & auth layers', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-express-original text-slate-200 text-sm"></i> Express.js
+          </button>
+          <button onclick="openModal('FastAPI', 'Asynchronous Python web framework with OpenAPI schemas', 'Expert', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-fastapi-plain text-teal-300 text-sm"></i> FastAPI
+          </button>
+          <button onclick="openModal('Flask', 'Lightweight Python microframeworks & AI serving APIs', 'Advanced', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-flask-original text-slate-300 text-sm"></i> Flask
+          </button>
+          <button onclick="openModal('REST APIs', 'Scalable HTTP/JSON interface design & documentation', 'Mastery', '6+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            ⚡ REST APIs
+          </button>
+          <button onclick="openModal('GraphQL', 'Schema definitions, Apollo server/client & query batching', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-graphql-plain text-pink-400 text-sm"></i> GraphQL
+          </button>
+          <button onclick="openModal('gRPC', 'High-performance Protobuf RPC inter-service communications', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🔌 gRPC
+          </button>
+          <button onclick="openModal('WebSockets', 'Real-time bidirectional event streaming & socket servers', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            📡 WebSockets
+          </button>
+        </div>
+      </div>
+
+      <!-- 4. DATA & CACHING -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="data">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#36cfff]">💎</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">DATA & CACHING</h2>
+            <p class="text-[10px] text-sky-300 font-mono tracking-widest">データ保存 · PERSISTENCE</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('PostgreSQL', 'ACID relational database, JSONB queries & indexing', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-postgresql-plain text-blue-400 text-sm"></i> PostgreSQL
+          </button>
+          <button onclick="openModal('MongoDB', 'NoSQL document database, aggregation pipelines & sharding', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-mongodb-plain text-green-400 text-sm"></i> MongoDB
+          </button>
+          <button onclick="openModal('Redis', 'In-memory data structures, caching layers & pub/sub brokers', 'Advanced', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-redis-plain text-red-500 text-sm"></i> Redis
+          </button>
+          <button onclick="openModal('Elasticsearch', 'Distributed full-text search engine & log analytics', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-elasticsearch-plain text-yellow-300 text-sm"></i> Elasticsearch
+          </button>
+          <button onclick="openModal('Supabase', 'Open-source Firebase alternative, Postgres & RLS security', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-supabase-plain text-emerald-400 text-sm"></i> Supabase
+          </button>
+          <button onclick="openModal('Firebase', 'Realtime Database, Firestore, Auth & Cloud Functions', 'Advanced', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-firebase-plain text-amber-400 text-sm"></i> Firebase
+          </button>
+          <button onclick="openModal('Kafka', 'Distributed event streaming platform & queue consumer clusters', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-apachekafka-original text-slate-200 text-sm"></i> Kafka
+          </button>
+          <button onclick="openModal('RabbitMQ', 'AMQP message queuing system for asynchronous processing', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🐇 RabbitMQ
+          </button>
+        </div>
+      </div>
+
+      <!-- 5. CLOUD & DEVOPS -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="cloud">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#36cfff]">☁️</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">CLOUD & DEVOPS</h2>
+            <p class="text-[10px] text-cyan-300 font-mono tracking-widest">クラウド運用 · INFRA</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('AWS', 'EC2, S3, Lambda serverless, ECS & IAM security policies', 'Advanced', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-amazonwebservices-original text-orange-400 text-sm"></i> AWS
+          </button>
+          <button onclick="openModal('GCP', 'Google Cloud Run, Compute Engine & Vertex AI integrations', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-googlecloud-plain text-blue-400 text-sm"></i> GCP
+          </button>
+          <button onclick="openModal('Oracle Cloud', 'OCI compute instances & autonomous database deployments', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-oracle-original text-red-500 text-sm"></i> Oracle Cloud
+          </button>
+          <button onclick="openModal('Docker', 'Containerization, multi-stage Dockerfiles & Compose stacks', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-docker-plain text-sky-400 text-sm"></i> Docker
+          </button>
+          <button onclick="openModal('Kubernetes', 'K8s cluster orchestration, deployments & ingress control', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-kubernetes-plain text-blue-500 text-sm"></i> Kubernetes
+          </button>
+          <button onclick="openModal('Terraform', 'Infrastructure as Code (IaC) provisioning for AWS/GCP', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-terraform-plain text-purple-400 text-sm"></i> Terraform
+          </button>
+          <button onclick="openModal('GitHub Actions', 'Automated CI/CD workflows, testing matrix & deployment', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-githubactions-plain text-blue-300 text-sm"></i> GitHub Actions
+          </button>
+          <button onclick="openModal('Linux', 'Bash shell scripting, server administration & system tuning', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-linux-plain text-yellow-300 text-sm"></i> Linux
+          </button>
+        </div>
+      </div>
+
+      <!-- 6. AI & MACHINE LEARNING -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="ai">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#ff69b4]">🧠</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">AI & MACHINE LEARNING</h2>
+            <p class="text-[10px] text-pink-300 font-mono tracking-widest">人工知能 · INTELLIGENCE</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('PyTorch', 'Deep learning neural networks, tensor ops & model training', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-pytorch-original text-red-500 text-sm"></i> PyTorch
+          </button>
+          <button onclick="openModal('TensorFlow', 'ML model building, Keras APIs & edge device export', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-tensorflow-line text-amber-500 text-sm"></i> TensorFlow
+          </button>
+          <button onclick="openModal('HuggingFace', 'Transformers library, pretrained models & pipeline fine-tuning', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🤗 HuggingFace
+          </button>
+          <button onclick="openModal('LLMs', 'Prompt engineering, OpenAI/Anthropic APIs & local Llama models', 'Advanced', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🤖 LLMs
+          </button>
+          <button onclick="openModal('RAG', 'Retrieval-Augmented Generation, vector DBs (LangChain/LlamaIndex)', 'Advanced', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🔍 RAG
+          </button>
+          <button onclick="openModal('MLOps', 'Model versioning, deployment, monitoring & ML pipelines', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            ⚙️ MLOps
+          </button>
+          <button onclick="openModal('Computer Vision', 'OpenCV image processing, object detection & segmentation', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            👁️ Computer Vision
+          </button>
+          <button onclick="openModal('CUDA', 'Parallel GPU acceleration & custom CUDA C++ kernels', 'Basic', '1+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            ⚡ CUDA
+          </button>
+        </div>
+      </div>
+
+      <!-- 7. SYSTEMS & ARCHITECTURE -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="systems">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#36cfff]">⚙️</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">SYSTEMS & ARCHITECTURE</h2>
+            <p class="text-[10px] text-sky-300 font-mono tracking-widest">システム設計 · DESIGN</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('System Design', 'High-availability architecture, load balancing & fault tolerance', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            📐 System Design
+          </button>
+          <button onclick="openModal('Distributed Systems', 'CAP theorem, consensus algorithms & message queues', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🌐 Distributed Systems
+          </button>
+          <button onclick="openModal('DSA', 'Data Structures & Algorithms, LeetCode problem solving', 'Expert', '5+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🧩 DSA
+          </button>
+          <button onclick="openModal('Operating Systems', 'Process scheduling, memory management & POSIX system calls', 'Advanced', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            💻 Operating Systems
+          </button>
+          <button onclick="openModal('Computer Networks', 'TCP/IP stack, DNS, TLS/SSL security & HTTP/3 protocol', 'Advanced', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            📡 Computer Networks
+          </button>
+          <button onclick="openModal('eBPF', 'Kernel-level observability, network filtering & tracing', 'Intermediate', '1+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🐝 eBPF
+          </button>
+        </div>
+      </div>
+
+      <!-- 8. 3D & GAME DEVELOPMENT -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="gamedev">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#ff69b4]">🎮</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">3D & GAME DEVELOPMENT</h2>
+            <p class="text-[10px] text-pink-300 font-mono tracking-widest">ゲーム制作 · INTERACTIVE</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('Unity', 'C# gameplay scripts, physics engines & 3D game loops', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-unity-original text-slate-100 text-sm"></i> Unity
+          </button>
+          <button onclick="openModal('Blender', '3D mesh modeling, UV unwrapping & asset rendering', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-blender-original text-orange-400 text-sm"></i> Blender
+          </button>
+          <button onclick="openModal('WebGL', 'Shader programming, GLSL & hardware GPU browser graphics', 'Intermediate', '2+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-webgl-plain text-red-500 text-sm"></i> WebGL
+          </button>
+        </div>
+      </div>
+
+      <!-- 9. SECURITY & TESTING -->
+      <div class="jp-ornate-card rounded-2xl p-5" data-category="security">
+        <div class="corner-accent tl"></div><div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div><div class="corner-accent br"></div>
+
+        <div class="flex items-center gap-3 mb-4 border-b border-[#1688e8]/30 pb-3">
+          <span class="text-2xl filter drop-shadow-[0_0_8px_#36cfff]">🛡️</span>
+          <div>
+            <h2 class="font-display font-bold text-base text-[#DDF7FF] tracking-wider">SECURITY & TESTING</h2>
+            <p class="text-[10px] text-sky-300 font-mono tracking-widest">セキュリティ · REASSURANCE</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="openModal('OAuth / JWT', 'Authentication protocols, token rotation & stateless sessions', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🔑 OAuth / JWT
+          </button>
+          <button onclick="openModal('Cybersecurity', 'OWASP Top 10 mitigation, encryption & threat modeling', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🔒 Cybersecurity
+          </button>
+          <button onclick="openModal('Jest', 'JavaScript unit testing, mocks, snapshots & coverage reports', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-jest-plain text-rose-500 text-sm"></i> Jest
+          </button>
+          <button onclick="openModal('PyTest', 'Python testing suite, fixtures, parameterization & async tests', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            <i class="devicon-pytest-plain text-sky-400 text-sm"></i> PyTest
+          </button>
+          <button onclick="openModal('End-To-End Testing', 'Cypress & Playwright browser automation test suits', 'Advanced', '3+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🧪 End-To-End Testing
+          </button>
+          <button onclick="openModal('CI/CD', 'Continuous integration matrix & automated deployment checks', 'Expert', '4+ Years')" class="skill-pill flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold">
+            🚀 CI/CD
+          </button>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Interactive Skill Detail Modal Window -->
+    <div id="skillModal" class="fixed inset-0 bg-black/80 backdrop-blur-md hidden justify-center items-center z-50 p-4">
+      <div class="jp-ornate-card max-w-md w-full rounded-2xl p-6 text-center relative border-2 border-[#36cfff] shadow-[0_0_30px_rgba(54,207,255,0.4)]">
+        <button onclick="closeModal()" class="absolute top-3 right-4 text-slate-400 hover:text-white font-mono text-lg">✕</button>
+        
+        <div class="w-12 h-12 mx-auto mb-3 rounded-full bg-[#1688e8]/20 border border-[#36cfff] flex items-center justify-center text-2xl text-[#36cfff]">
+          💎
+        </div>
+
+        <h3 id="modalTitle" class="font-display font-bold text-xl text-[#DDF7FF] tracking-widest uppercase">Skill Name</h3>
+        <p id="modalLevel" class="text-xs font-mono text-[#ffb7d5] mt-1">PROFIENCY: EXPERT</p>
+        
+        <div class="my-4 p-3 rounded-xl bg-[#040914]/80 border border-[#1688e8]/30 text-xs text-slate-300 leading-relaxed text-left" id="modalDesc">
+          Description details will go here...
+        </div>
+
+        <div class="flex justify-between items-center text-[11px] font-mono text-slate-400 pt-2 border-t border-[#1688e8]/20">
+          <span>EXPERIENCE: <strong id="modalExp" class="text-[#36cfff]">4+ Years</strong></span>
+          <span class="text-[#ff69b4]">進化 · EVOLVING</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Japanese Inspired Footer Tagline -->
+    <footer class="mt-16 text-center">
+      <div class="inline-block p-1 rounded-2xl bg-gradient-to-r from-[#1688e8] via-[#ff69b4] to-[#36cfff]">
+        <div class="px-8 py-3 rounded-xl bg-[#040914] border border-[#36cfff]/40">
+          <p class="font-display font-bold text-sm tracking-widest text-[#DDF7FF]">
+            BUILD . CREATE . EVOLVE ⚡
+          </p>
+        </div>
+      </div>
+      <p class="text-xs font-japanese text-[#ffb7d5] tracking-widest mt-4">
+        技術は夢を現実にする · TECHNOLOGY TURNS DREAMS INTO REALITY
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    /* Falling Sakura Petal Particle Canvas Algorithm */
+    const canvas = document.getElementById('sakuraCanvas');
+    const ctx = canvas.getContext('2d');
+
+    let width = canvas.width = window.innerWidth;
+    let height = canvas.height = window.innerHeight;
+
+    window.addEventListener('resize', () => {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+    });
+
+    class SakuraPetal {
+      constructor() {
+        this.reset();
+      }
+
+      reset() {
+        this.x = Math.random() * width;
+        this.y = Math.random() * -height;
+        this.size = Math.random() * 7 + 4;
+        this.speedY = Math.random() * 1.2 + 0.6;
+        this.speedX = Math.random() * 0.8 - 0.4;
+        this.angle = Math.random() * 360;
+        this.spin = Math.random() * 2 - 1;
+        this.opacity = Math.random() * 0.7 + 0.2;
+        this.isSakura = Math.random() > 0.25;
+      }
+
+      update() {
+        this.y += this.speedY;
+        this.x += Math.sin(this.y * 0.008) + this.speedX;
+        this.angle += this.spin;
+
+        if (this.y > height + 20) {
+          this.reset();
+        }
+      }
+
+      draw() {
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate((this.angle * Math.PI) / 180);
+        ctx.globalAlpha = this.opacity;
+
+        if (this.isSakura) {
+          // Sakura Pink Petal Shape
+          ctx.fillStyle = '#ffb7d5';
+          ctx.beginPath();
+          ctx.moveTo(0, 0);
+          ctx.bezierCurveTo(-this.size, -this.size / 2, -this.size, this.size, 0, this.size * 1.4);
+          ctx.bezierCurveTo(this.size, this.size, this.size, -this.size / 2, 0, 0);
+          ctx.fill();
+        } else {
+          // Electric Blue Glowing Stardust Particle
+          ctx.fillStyle = '#36cfff';
+          ctx.beginPath();
+          ctx.arc(0, 0, this.size / 3, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        ctx.restore();
+      }
+    }
+
+    const petals = Array.from({ length: 50 }, () => new SakuraPetal());
+
+    function animateSakura() {
+      ctx.clearRect(0, 0, width, height);
+      petals.forEach(petal => {
+        petal.update();
+        petal.draw();
+      });
+      requestAnimationFrame(animateSakura);
+    }
+
+    /* Live Search & Skill Tag Filtering */
+    function handleSearch() {
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const cards = document.querySelectorAll('#skillsGrid > div');
+
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        if (text.includes(query)) {
+          card.style.display = 'block';
+          card.style.opacity = '1';
+        } else {
+          card.style.opacity = '0.15';
+        }
+      });
+    }
+
+    function resetFilter() {
+      document.getElementById('searchInput').value = '';
+      const cards = document.querySelectorAll('#skillsGrid > div');
+      cards.forEach(card => {
+        card.style.display = 'block';
+        card.style.opacity = '1';
+      });
+    }
+
+    /* Interactive Skill Detail Modal Controls */
+    function openModal(name, desc, level, exp) {
+      document.getElementById('modalTitle').innerText = name;
+      document.getElementById('modalDesc').innerText = desc;
+      document.getElementById('modalLevel').innerText = 'PROFICIENCY: ' + level.toUpperCase();
+      document.getElementById('modalExp').innerText = exp;
+      
+      const modal = document.getElementById('skillModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('skillModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    /* Start animation loop after load */
+    window.onload = function() {
+      animateSakura();
+    };
+  </script>
+</body>
+</html>
