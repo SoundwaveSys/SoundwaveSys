@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/Sumdiboii/Sumdiboii/raw/44868b321710b0ce4256664d0a54352bacae878a/new-readme-images/github-banner-1.png" />
+  <img src="https://github.com/SoundwaveSys/SoundwaveSys/blob/main/SoundwaveSys/new-readme-images/github-banner-1.png?raw=true" />
 </p>
 
 <!-- <br> -->
