@@ -178,6 +178,10 @@
     alt="QR Code - Interactive Skill Map"
   />
 
+  <a href="https://classy-alpaca-c1e3ba.netlify.app/" target="_blank">
+    <b color="Blue">GO TO MAP</b>
+  </a>
+
   <br>
 
   <b>📱 Scan to explore my Interactive Skill Map</b>
