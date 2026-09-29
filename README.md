@@ -222,7 +222,7 @@
     <tr>
       <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/codeblock-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/861b01175dc56263c47a71a85fa19530296534f9/new-readme-images/codeblock-table-text.png" />
+        <img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/gwen-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/861b01175dc56263c47a71a85fa19530296534f9/new-readme-images/codeblock-table-text.png" />
         <br>
         <p align="center">
           <a href="https://codeblock-sumo.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
