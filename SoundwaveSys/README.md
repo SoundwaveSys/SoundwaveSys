@@ -2,9 +2,6 @@
 <p align="center">
   <img src="https://github.com/SoundwaveSys/SoundwaveSys/blob/main/SoundwaveSys/new-readme-images/github-banner-1.png?raw=true" />
 </p>
-
-<!-- <br> -->
-
 <p align="center">
   <img src="https://github.com/Sumdiboii/Sumdiboii/raw/ff6f4d0ac327e8a7d33e3446ceb841765301a7ac/new-readme-images/introboxfinal.png" />
 </p>
