@@ -56,7 +56,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/Sumdiboii/Sumdiboii/raw/7a2d5aea685152ede4df3e9d94865d8b28608dea/new-readme-images/skillsheaderbox.png" />
+  <img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/skillsheaderbox.png" />
   <br /><br />
   
   <img src="https://img.shields.io/badge/Programming_Languages-D4AF37?style=for-the-badge" />
@@ -170,7 +170,7 @@
 <!-- <br>  -->
 
 <p align="center">
-  <img src="https://github.com/Sumdiboii/Sumdiboii/raw/bd9b82c489739ee13d7ccf6040902ff97966940a/new-readme-images/projectheaderbox.png" />
+  <img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/projectheaderbox.png" />
 </p>
 
 <!-- <br> -->
