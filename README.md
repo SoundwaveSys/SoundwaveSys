@@ -155,6 +155,46 @@
 
 <br>
 
+<!-- ================= INTERACTIVE SKILL MAP ================= -->
+
+<div align="center">
+
+  <img
+    src="https://img.shields.io/badge/🌸_EXPLORE_MY_INTERACTIVE_SKILL_MAP-0B3D73?style=for-the-badge&labelColor=061A2E"
+    alt="Explore My Interactive Skill Map"
+  />
+
+  <br>
+
+  <img src="https://img.shields.io/badge/TECHNOLOGY-5FA8E8?style=flat-square" />
+  <img src="https://img.shields.io/badge/BUILD-F3A6C1?style=flat-square" />
+  <img src="https://img.shields.io/badge/CREATE-DCEEFF?style=flat-square" />
+
+  <br>
+
+  <img
+    src="./SoundwaveSys/new-readme-images/skills-qr.png"
+    width="150"
+    alt="QR Code - Interactive Skill Map"
+  />
+
+  <br>
+
+  <b>📱 Scan to explore my Interactive Skill Map</b>
+
+  <br>
+
+  <a href="YOUR_INTERACTIVE_PAGE_URL">
+    <img
+      src="https://img.shields.io/badge/🔗_OPEN_INTERACTIVE_SKILL_MAP-1769AA?style=for-the-badge&labelColor=0B3D73"
+      alt="Open Interactive Skill Map"
+    />
+  </a>
+
+</div>
+
+<!-- ================= PROJECTS ================= -->
+
 
 
 </p>
