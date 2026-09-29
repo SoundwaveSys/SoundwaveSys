@@ -8,10 +8,14 @@
 
 <!-- <br> -->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Sumdiboii/Sumdiboii/output/github-contribution-grid-snake.svg" alt="Commit Snake" />
-</p>
+<div align="center">
 
+<img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/output/github-snake.svg" width="1200" alt="Contribution Snake">
+
+<img src="./SoundwaveSys/new-readme-images/ship-ocean.gif" width="1200" alt="Going Merry Sailing">
+
+</div>
+<br/>
 <p align="center">
   <img src="https://img.shields.io/badge/-Project%20Source%20Codes%20Private.%20Contact%20for%20access.-6b0927?style=for-the-badge" alt="Source Code Private. Contact for access." />
 </p>
