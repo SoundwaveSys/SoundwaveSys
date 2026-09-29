@@ -1,16 +1,8 @@
 
-<p align="center">
-  <img src="https://github.com/SoundwaveSys/SoundwaveSys/blob/main/SoundwaveSys/new-readme-images/github-banner-1.png?raw=true" />
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/introboxfinal.png" />
-</p>
 
-<!-- <br> -->
-
-<p align="center">
-  <img src="https://github.com/Sumdiboii/Sumdiboii/blob/0953b034db9e8c98ab34d5600aa2680ef5dd1a66/new-readme-images/quickaccessbox.png" />
-</p>
+<div align="center">
+<img src="https://github.com/SoundwaveSys/SoundwaveSys/blob/main/SoundwaveSys/new-readme-images/github-banner-1.png?raw=true" width="100%" /><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/introboxfinal.png" width="100%" /><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/quickaccessbox.png" width="100%" />
+</div>
 
 
 
