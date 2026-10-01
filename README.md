@@ -341,7 +341,7 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sumdiboii/Sumdiboii/main/new-readme-images/comic.jpg" style="width: 100%; max-width: 100%;" alt="Manga comic strip" />
+  <img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/comic.png" style="width: 100%; max-width: 100%;" alt="Manga comic strip" />
 </p>
 
 <br>
