@@ -254,11 +254,24 @@
 /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/861b01175dc56263c47a71a85fa19530296534f9/new-readme-images/codeblock-table-text.png" />
         <br>
         <p align="center">
-          <a href="https://codeblock-sumo.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/codeblock-compiler-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
+         <a href="https://codeblock-sumo.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Live_Demo-0B1F33?style=for-the-badge&logo=vercel&logoColor=D4AF37"
+    alt="Live Demo"
+  >
+</a>
+<a href="https://github.com/SoundwaveSys/codeblock-compiler-public" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Repository-2E86C1?style=for-the-badge&logo=github&logoColor=FFFFFF"
+    alt="Repository"
+  >
+</a>
+<a href="https://PrathameshMane.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Portfolio-0B1F33?style=for-the-badge&logo=google-chrome&logoColor=F3A6B8"
+    alt="Portfolio"
+  >
+</a>
         </p>
       </td>
       <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
@@ -270,11 +283,24 @@
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/cloudcannon-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/46b96feb635329484d3ec2eacd56fe149e8eff0a/new-readme-images/cloudcannon-table-text.png" />
         <br>
         <p align="center">
-          <a href="https://cloud-cannon-space-app.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/cloud-cannon-space-app-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
+           <a href="https://codeblock-sumo.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Live_Demo-0B1F33?style=for-the-badge&logo=vercel&logoColor=D4AF37"
+    alt="Live Demo"
+  >
+</a>
+<a href="https://github.com/SoundwaveSys/codeblock-compiler-public" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Repository-2E86C1?style=for-the-badge&logo=github&logoColor=FFFFFF"
+    alt="Repository"
+  >
+</a>
+<a href="https://PrathameshMane.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Portfolio-0B1F33?style=for-the-badge&logo=google-chrome&logoColor=F3A6B8"
+    alt="Portfolio"
+  >
+</a>
         </p>
       </td>
       <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
@@ -286,191 +312,29 @@
         <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/scholarsearch-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/scholarsearch-table-text.png" />
         <br>
         <p align="center">
-          <a href="https://web-crawler-openalex-semantic-resea.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/web-crawler-openalex-semantic-research-papers-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
+           <a href="https://codeblock-sumo.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Live_Demo-0B1F33?style=for-the-badge&logo=vercel&logoColor=D4AF37"
+    alt="Live Demo"
+  >
+</a>
+<a href="https://github.com/SoundwaveSys/codeblock-compiler-public" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Repository-2E86C1?style=for-the-badge&logo=github&logoColor=FFFFFF"
+    alt="Repository"
+  >
+</a>
+<a href="https://PrathameshMane.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Portfolio-0B1F33?style=for-the-badge&logo=google-chrome&logoColor=F3A6B8"
+    alt="Portfolio"
+  >
+</a>
         </p>
       </td>
       <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
     </tr>
-    <!-- 4. New Portfolio -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/newportfolio-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/80ee75d8c5155c3398bdfb0dd39c5c9c4789f0c1/new-readme-images/newportfolio-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://Prathamesh-Mane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://Prathamesh-Mane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 5. Minesweeper -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/betterminesweeper-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/minesweeper-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://better-minesweeper-react.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/better-minesweeper-react-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 6. Pokedex -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/pokedex-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/pokedex-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://pokedex-gamma-two.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/PokeDex-Project" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 7. PillowTalk -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/pillowtalk-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/pillowtalk-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://pillowtalk-dear-diary-web-app-git-se-08ba82-sumdiboiis-projects.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/pillowtalk-dear-diary-web-app-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 8. MyVault -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/myvault-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/myvault-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://password-manager-cybersecurity.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/password-manager-cybersecurity-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 9. Anantya -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/anantya-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/anantya-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://anantya-2-k25.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/Anantya-2k25-Techfest-website-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 10. Paper Scholar -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/paperscholar-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/cbd0808abad3e29ded2c8cf10b10efae17291175/new-readme-images/paper-scholar-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://serp-api-web-crawler-summer-interns.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/serp-api-web-crawler-summer-internship-pccoe-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 11. SatCom -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/satcom-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/satcom-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://satellite-image-compression.streamlit.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/Satellite_Image_Compression_by_DCT_Huffman" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 12. Old Portfolio -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/561db4525dc9d6346e79a6d26d982ac782d68d8a/new-readme-images/oldportfolio-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/old-portfolio-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://portfolio-website-c16e.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/portfolio-website-project" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 13. FreeCrafter -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/freecrafter-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/cbd0808abad3e29ded2c8cf10b10efae17291175/new-readme-images/freecrafter-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="https://advanced-diffusion-models-for-image.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="Live Demo"></a>
-          &nbsp;&nbsp;
-          <a href="https://github.com/Sumdiboii/Advanced-Diffusion-Models-for-Image-Generation-public" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
-    <!-- 14. SafeHer -->
-    <tr>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-      <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/861b01175dc56263c47a71a85fa19530296534f9/new-readme-images/escapeai-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/861b01175dc56263c47a71a85fa19530296534f9/new-readme-images/escapeai-table-text.png" />
-        <br>
-        <p align="center">
-          <a href="#" target="_blank"><img src="https://img.shields.io/badge/IN_WORKS-7A1C1C?style=for-the-badge&logo=vercel&logoColor=FFD700" alt="In Works"></a>
-          &nbsp;&nbsp;
-          <a href="#" target="_blank"><img src="https://img.shields.io/badge/Repository-4A0E0E?style=for-the-badge&logo=github&logoColor=FFD700" alt="Repository"></a>
-          &nbsp;&nbsp;
-          <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-5C1313?style=for-the-badge&logo=google-chrome&logoColor=FFD700" alt="Portfolio"></a>
-        </p>
-      </td>
-      <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
-    </tr>
+    
   </tbody>
 </table>
 
