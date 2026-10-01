@@ -17,28 +17,52 @@
 </div>
 <br/>
 <p align="center">
-  <img src="https://img.shields.io/badge/-Project%20Source%20Codes%20Private.%20Contact%20for%20access.-6b0927?style=for-the-badge" alt="Source Code Private. Contact for access." />
+  <img src="https://img.shields.io/badge/-Project%20Source%20Codes%20Private.%20Contact%20for%20access.-0B1F33?style=for-the-badge&logo=x&logoColor=FFFFFF" alt="Source Code Private. Contact for access." />
 </p>
 
 
 <!-- <br> -->
 
 <p align="center">
-  <a href="https://x.com/PrathameshMane" target="_blank"><img src="https://img.shields.io/badge/Twitter-6b0927?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
-  <a href="https://leetcode.com/u/Prathameshiscodinglol/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-6b0927?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-  <a href="https://PrathameshMane.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-6b0927?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://docs.google.com/document/d/1IdfYwDGtaz0bVFcXU2RypyG1JNUQN3WO17pW7Bk1SbA/edit?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Resume-6b0927?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" /></a>
-  <a href="https://github.com/Sumdiboii/my-certificates" target="_blank"><img src="https://img.shields.io/badge/Certs-6b0927?style=for-the-badge" alt="Certifications" /></a>
-  <a href="https://www.credly.com/users/Prathamesh-Mane.114636cd" target="_blank"><img src="https://img.shields.io/badge/Credly-6b0927?style=for-the-badge&logo=credly&logoColor=white" alt="Credly" /></a>
-  <a href="https://medium.com/@Prathamesh-Mane" target="_blank"><img src="https://img.shields.io/badge/Medium-6b0927?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://x.com/PrathameshMane" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-0B1F33?style=for-the-badge&logo=x&logoColor=FFFFFF" alt="Twitter" />
+  </a>
+
+  <a href="https://leetcode.com/u/Prathameshiscodinglol/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-0B1F33?style=for-the-badge&logo=leetcode&logoColor=F3A6B8" alt="LeetCode" />
+  </a>
+
+  <a href="https://PrathameshMane.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0B1F33?style=for-the-badge&logo=react&logoColor=73B9E6" alt="Portfolio" />
+  </a>
+
+  <a href="https://docs.google.com/document/d/1IdfYwDGtaz0bVFcXU2RypyG1JNUQN3WO17pW7Bk1SbA/edit?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Resume-0B1F33?style=for-the-badge&logo=googledrive&logoColor=73B9E6" alt="Resume" />
+  </a>
+
+  <a href="https://github.com/SoundwaveSys/my-certificates" target="_blank">
+    <img src="https://img.shields.io/badge/Certs-0B1F33?style=for-the-badge&logoColor=D4AF37" alt="Certifications" />
+  </a>
+
+  <a href="https://www.credly.com/users/Prathamesh-Mane.114636cd" target="_blank">
+    <img src="https://img.shields.io/badge/Credly-0B1F33?style=for-the-badge&logo=credly&logoColor=D4AF37" alt="Credly" />
+  </a>
+
+  <a href="https://medium.com/@Prathamesh-Mane" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-0B1F33?style=for-the-badge&logo=medium&logoColor=F3A6B8" alt="Medium" />
+  </a>
 </p>
 
 <br>
 
 <p align="center">
   <a href="https://leetcode.com/u/Prathameshiscodinglol/" target="_blank">
-    <!-- The Hero LeetCode Card -->
-    <img src="https://leetcard.jacoblin.cool/Prathameshiscodinglol?font=Fira%20Code&ext=contest&colors=6b0927,6b0927,D4AF37,ffffff,D4AF37,D4AF37,D4AF37" alt="LeetCode Contest Stats" height="355" />
+    <!-- LeetCode Stats — Japanese Ocean Theme -->
+    <img
+      src="https://leetcard.jacoblin.cool/Prathameshiscodinglol?font=Fira%20Code&ext=contest&colors=0B1F33,0B1F33,2E86C1,FFFFFF,F3A6B8,D4AF37,73B9E6"
+      alt="LeetCode Contest Stats"
+      height="355"
+    />
   </a>
 </p>
 
