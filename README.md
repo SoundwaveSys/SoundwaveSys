@@ -346,13 +346,7 @@
 
 <br>
 
-<div align="center">
-  <img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sumdiboii&theme=dark&bg_color=0d1117&title_color=8B0000&icon_color=8B0000&text_color=ffffff"/>
-  <img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sumdiboii&theme=dark&bg_color=0d1117&title_color=8B0000&icon_color=8B0000&text_color=ffffff"/>
-  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sumdiboii&theme=dark&bg_color=0d1117&title_color=8B0000&icon_color=8B0000&text_color=ffffff"/>
-  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Sumdiboii&theme=dark&bg_color=0d1117&title_color=8B0000&icon_color=8B0000&text_color=ffffff"/>
-  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sumdiboii&theme=dark&bg_color=0d1117&title_color=8B0000&icon_color=8B0000&text_color=ffffff&utcOffset=5.5"/>
-</div>
+
 
 <!-- Divider -->
 <!-- <div align="center">
@@ -365,20 +359,6 @@
 <!--                STREAK STATS & TOP LANGUAGES                  -->
 <!-- ============================================================ -->
 
-<table align="center">
-  <tr>
-    <!-- GitHub Streak -->
-    <!-- <td align="center">
-      <img src="https://streak-stats.demolab.com?user=Sumdiboii&theme=dark&background=0d1117&border_radius=10&ring=8B0000&fire=8B0000&currStreakNum=ffffff&currStreakLabel=8B0000&sideLabels=ffffff&sideNums=ffffff&dates=ffffff&stroke=8B0000&border=8B0000" alt="GitHub Streak"/>
-    </td> -->
-    <!-- Top Languages -->
-    <!-- <td align="center">
-      <a href="https://github.com/Sumdiboii">
-        <img height="190em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sumdiboii&langs_count=8&layout=compact&theme=dark&bg_color=0d1117&title_color=8B0000&text_color=ffffff&icon_color=8B0000&border_color=8B0000&border_radius=10" alt="Top Languages"/>
-      </a>
-    </td> -->
-  </tr>
-</table>
 
 <!-- Divider -->
 <!-- <div align="center">
@@ -401,7 +381,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/Sumdiboii/Sumdiboii/raw/44868b321710b0ce4256664d0a54352bacae878a/new-readme-images/github-banner-1.png" />
+  <img src="https://github.com/SoundwaveSys/SoundwaveSys/blob/main/SoundwaveSys/new-readme-images/github-banner-1.png?raw=true" width="100%" /> 
 </p>
 
 <br>
