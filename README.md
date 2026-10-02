@@ -396,16 +396,10 @@
 <!-- 🎬 POST-CREDIT SCENE -->
 <p align="center">
 
-  <video
-    src="https://github.com/user-attachments/assets/eb53d44c-a250-45df-9e5a-6c6693d51bac"
-    width="900"
-    controls
-    autoplay
-    loop
-    playsinline>
-  </video>
+  https://github.com/user-attachments/assets/14eefcc2-1182-463e-9e49-be9144963a59
 
 </p>
+
 
 <p align="center">
   <img
