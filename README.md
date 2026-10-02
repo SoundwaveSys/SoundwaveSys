@@ -242,7 +242,7 @@
 
 <table align="center">
   <tbody>
-    <!-- 1. CodeBlock -->
+    <!-- 1. Gwen -->
     <tr>
       <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
@@ -280,7 +280,7 @@
     <tr>
       <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/cloudcannon-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/46b96feb635329484d3ec2eacd56fe149e8eff0a/new-readme-images/cloudcannon-table-text.png" />
+        <img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/gwen-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/46b96feb635329484d3ec2eacd56fe149e8eff0a/new-readme-images/cloudcannon-table-text.png" />
         <br>
         <p align="center">
            <a href="https://codeblock-sumo.vercel.app/" target="_blank">
@@ -309,7 +309,7 @@
     <tr>
       <td align="center" width="123"><img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/headblock.png" width="123" /></td>
       <td width="700">
-        <img src="https://github.com/Sumdiboii/Sumdiboii/raw/6f757b54d0294ca12bd3071fc1b46d11e432297b/new-readme-images/scholarsearch-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/scholarsearch-table-text.png" />
+        <img src="https://raw.githubusercontent.com/SoundwaveSys/SoundwaveSys/refs/heads/main/SoundwaveSys/new-readme-images/gwen-header.png" /><img src="https://github.com/Sumdiboii/Sumdiboii/raw/f982ad4c5d3ea4cd5db1368d264fe9bbc0941599/new-readme-images/scholarsearch-table-text.png" />
         <br>
         <p align="center">
            <a href="https://codeblock-sumo.vercel.app/" target="_blank">
