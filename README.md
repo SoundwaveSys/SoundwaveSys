@@ -395,15 +395,11 @@
 
 <!-- 🎬 POST-CREDIT SCENE -->
 <p align="center">
-  <video
-    src="./video%20v5.mp4"
-    width="900"
-    autoplay
-    loop
-    muted
-    playsinline
-    controls>
-  </video>
+  <a href="https://github.com/SoundwaveSys/SoundwaveSys/blob/main/video%20v5.mp4">
+    <img src="./SoundwaveSys/new-readme-images/your-thumbnail.png"
+         width="900"
+         alt="Watch SoundwaveSys GitHub Post-Credit Animation">
+  </a>
 </p>
 
 <p align="center">
