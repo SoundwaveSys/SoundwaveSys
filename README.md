@@ -387,17 +387,40 @@
 <br>
 
 <!-- TITLE with Animated Typing Effect -->
+
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?pause=1000&color=8B0000&center=true&vCenter=true&width=500&lines=Aim+for+the+Stars;%E0%A4%B8%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B2%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AF+%E0%A4%B0%E0%A4%96%E0%A5%87%E0%A4%82;%E0%A4%A4%E0%A4%BE%E0%A4%B1%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%82%E0%A4%9A%E0%A5%87+%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A5%87%E0%A4%AF+%E0%A4%A0%E0%A5%87%E0%A4%B5%E0%A4%BE;%E6%98%9F%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%9B;Greif+nach+den+Sternen;%E0%B2%A8%E0%B2%95%E0%B3%8D%E0%B2%B7%E0%B2%A4%E0%B3%8D%E0%B2%B0%E0%B2%97%E0%B2%B3%E0%B2%A4%E0%B3%8D%E0%B2%A4+%E0%B2%97%E0%B3%81%E0%B2%B0%E0%B2%BF%E0%B2%AF%E0%B2%BF%E0%B2%A1%E0%B2%BF" alt="Multilingual Aim for the Stars Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?pause=1000&color=8B0000&center=true&vCenter=true&width=500&lines=Aim+for+the+Stars;%E0%A4%B8%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B2%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AF+%E0%A4%B0%E0%A4%96%E0%A5%87%E0%A4%82;%E0%A4%A4%E0%A4%BE%E0%A1%9C%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%82%E0%A4%9A%E0%A5%87+%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A5%87%E0%A4%AF+%E0%A4%A0%E0%A5%87%E0%A4%B5%E0%A4%BE;%E6%98%9F%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%9B;Greif+nach+den+Sternen;%E0%B2%A8%E0%B2%95%E0%B3%8D%E0%B2%B7%E0%B2%A4%E0%B3%8D%E0%B2%B0%E0%B2%97%E0%B2%B3%E0%B2%A4%E0%B3%8D%E0%B2%A4+%E0%B2%97%E0%B3%81%E0%B2%B0%E0%B2%BF%E0%B2%AF%E0%B2%BF%E0%B0%A1%E0%B0%BF" alt="Multilingual Aim for the Stars Typing SVG" />
+</p>
+
+<!-- 🎬 POST-CREDIT SCENE -->
+<p align="center">
+  <video
+    src="./video%20v5.mp4"
+    width="900"
+    autoplay
+    loop
+    muted
+    playsinline
+    controls>
+  </video>
 </p>
 
 <p align="center">
-  <img src="https://img.icons8.com/ios-filled/100/D5A543/diamond.png" width="80" alt="Yellow Gold Diamond Icon" />
+  <img
+    src="https://img.icons8.com/ios-filled/100/D5A543/diamond.png"
+    width="80"
+    alt="Yellow Gold Diamond Icon"
+  />
 </p>
 
 <p align="center">
   <!-- Profile View Counter -->
-  <img src="https://komarev.com/ghpvc/?username=Sumdiboii&color=6b0927&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-  
- 
+  <img
+    src="https://komarev.com/ghpvc/?username=Sumdiboii&color=6b0927&style=for-the-badge&label=PROFILE+VIEWS"
+    alt="Profile Views"
+  />
 </p>
+
+
+
