@@ -415,6 +415,12 @@
     src="https://komarev.com/ghpvc/?username=Sumdiboii&color=6b0927&style=for-the-badge&label=PROFILE+VIEWS"
     alt="Profile Views"
   />
+<p align="center">
+  <!-- Profile View Counter -->
+  <img
+    src="https://komarev.com/ghpvc/?username=Sumdiboii&color=6b0927&style=for-the-badge&label=PROFILE+VIEWS"
+    alt="Profile Views"
+  />
 </p>
 
 
