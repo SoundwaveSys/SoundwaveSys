@@ -394,6 +394,12 @@
   https://github.com/user-attachments/assets/14eefcc2-1182-463e-9e49-be9144963a59
 
 </p>
+<!-- 🎬 POST-CREDIT SCENE -->
+<p align="center">
+
+  https://github.com/user-attachments/assets/14eefcc2-1182-463e-9e49-be9144963a59
+
+</p>
 
 
 <p align="center">
